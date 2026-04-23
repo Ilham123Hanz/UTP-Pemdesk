@@ -49,7 +49,7 @@ Partial Class Competitor
         colName = New DataGridViewTextBoxColumn()
         colTeam = New DataGridViewTextBoxColumn()
         colTeamInfo = New DataGridViewTextBoxColumn()
-        colCompPict = New DataGridViewImageColumn()      ' <-- DIUBAH
+        colCompPict = New DataGridViewImageColumn()
         pnlLeftTeam = New Panel()
         lblTeamHeader = New Label()
         pnlFooter = New Panel()
@@ -72,7 +72,7 @@ Partial Class Competitor
         pnlHeader.Controls.Add(lblTitle)
         pnlHeader.Dock = DockStyle.Top
         pnlHeader.Location = New Point(0, 0)
-        pnlHeader.Margin = New Padding(4, 4, 4, 4)
+        pnlHeader.Margin = New Padding(4)
         pnlHeader.Name = "pnlHeader"
         pnlHeader.Size = New Size(1538, 43)
         pnlHeader.TabIndex = 5
@@ -108,7 +108,7 @@ Partial Class Competitor
         pnlInput.Controls.Add(picProfile)
         pnlInput.Dock = DockStyle.Top
         pnlInput.Location = New Point(0, 43)
-        pnlInput.Margin = New Padding(4, 4, 4, 4)
+        pnlInput.Margin = New Padding(4)
         pnlInput.Name = "pnlInput"
         pnlInput.Size = New Size(1538, 200)
         pnlInput.TabIndex = 1
@@ -175,7 +175,7 @@ Partial Class Competitor
         btnAdd.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
         btnAdd.ForeColor = Color.Black
         btnAdd.Location = New Point(938, 19)
-        btnAdd.Margin = New Padding(4, 4, 4, 4)
+        btnAdd.Margin = New Padding(4)
         btnAdd.Name = "btnAdd"
         btnAdd.Size = New Size(225, 44)
         btnAdd.TabIndex = 10
@@ -189,7 +189,7 @@ Partial Class Competitor
         btnClear.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
         btnClear.ForeColor = Color.Black
         btnClear.Location = New Point(938, 69)
-        btnClear.Margin = New Padding(4, 4, 4, 4)
+        btnClear.Margin = New Padding(4)
         btnClear.Name = "btnClear"
         btnClear.Size = New Size(225, 44)
         btnClear.TabIndex = 11
@@ -199,7 +199,7 @@ Partial Class Competitor
         ' txtName
         ' 
         txtName.Location = New Point(225, 15)
-        txtName.Margin = New Padding(4, 4, 4, 4)
+        txtName.Margin = New Padding(4)
         txtName.Name = "txtName"
         txtName.Size = New Size(436, 31)
         txtName.TabIndex = 4
@@ -208,7 +208,7 @@ Partial Class Competitor
         ' 
         cmbTeam.FormattingEnabled = True
         cmbTeam.Location = New Point(225, 56)
-        cmbTeam.Margin = New Padding(4, 4, 4, 4)
+        cmbTeam.Margin = New Padding(4)
         cmbTeam.Name = "cmbTeam"
         cmbTeam.Size = New Size(436, 33)
         cmbTeam.TabIndex = 5
@@ -218,7 +218,7 @@ Partial Class Competitor
         btnEditTeam.BackColor = Color.White
         btnEditTeam.FlatStyle = FlatStyle.Flat
         btnEditTeam.Location = New Point(669, 56)
-        btnEditTeam.Margin = New Padding(4, 4, 4, 4)
+        btnEditTeam.Margin = New Padding(4)
         btnEditTeam.Name = "btnEditTeam"
         btnEditTeam.Size = New Size(44, 35)
         btnEditTeam.TabIndex = 6
@@ -228,7 +228,7 @@ Partial Class Competitor
         ' txtTeamInfo
         ' 
         txtTeamInfo.Location = New Point(225, 98)
-        txtTeamInfo.Margin = New Padding(4, 4, 4, 4)
+        txtTeamInfo.Margin = New Padding(4)
         txtTeamInfo.Name = "txtTeamInfo"
         txtTeamInfo.Size = New Size(436, 31)
         txtTeamInfo.TabIndex = 7
@@ -236,7 +236,7 @@ Partial Class Competitor
         ' btnSelect
         ' 
         btnSelect.Location = New Point(288, 144)
-        btnSelect.Margin = New Padding(4, 4, 4, 4)
+        btnSelect.Margin = New Padding(4)
         btnSelect.Name = "btnSelect"
         btnSelect.Size = New Size(94, 38)
         btnSelect.TabIndex = 9
@@ -247,7 +247,7 @@ Partial Class Competitor
         ' 
         picProfile.BackColor = Color.Transparent
         picProfile.Location = New Point(225, 138)
-        picProfile.Margin = New Padding(4, 4, 4, 4)
+        picProfile.Margin = New Padding(4)
         picProfile.Name = "picProfile"
         picProfile.Size = New Size(50, 50)
         picProfile.SizeMode = PictureBoxSizeMode.Zoom
@@ -265,7 +265,7 @@ Partial Class Competitor
         pnlToolbar.Controls.Add(btnImport)
         pnlToolbar.Dock = DockStyle.Top
         pnlToolbar.Location = New Point(0, 243)
-        pnlToolbar.Margin = New Padding(4, 4, 4, 4)
+        pnlToolbar.Margin = New Padding(4)
         pnlToolbar.Name = "pnlToolbar"
         pnlToolbar.Size = New Size(1538, 56)
         pnlToolbar.TabIndex = 2
@@ -273,7 +273,7 @@ Partial Class Competitor
         ' txtSearch
         ' 
         txtSearch.Location = New Point(12, 10)
-        txtSearch.Margin = New Padding(4, 4, 4, 4)
+        txtSearch.Margin = New Padding(4)
         txtSearch.Name = "txtSearch"
         txtSearch.Size = New Size(249, 31)
         txtSearch.TabIndex = 0
@@ -281,7 +281,7 @@ Partial Class Competitor
         ' btnSearch
         ' 
         btnSearch.Location = New Point(269, 10)
-        btnSearch.Margin = New Padding(4, 4, 4, 4)
+        btnSearch.Margin = New Padding(4)
         btnSearch.Name = "btnSearch"
         btnSearch.Size = New Size(38, 34)
         btnSearch.TabIndex = 1
@@ -293,7 +293,7 @@ Partial Class Competitor
         btnClearSearch.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
         btnClearSearch.ForeColor = Color.DeepSkyBlue
         btnClearSearch.Location = New Point(312, 10)
-        btnClearSearch.Margin = New Padding(4, 4, 4, 4)
+        btnClearSearch.Margin = New Padding(4)
         btnClearSearch.Name = "btnClearSearch"
         btnClearSearch.Size = New Size(38, 34)
         btnClearSearch.TabIndex = 2
@@ -304,8 +304,8 @@ Partial Class Competitor
         ' 
         btnExport.BackColor = Color.White
         btnExport.FlatStyle = FlatStyle.Flat
-        btnExport.Location = New Point(1125, 8)
-        btnExport.Margin = New Padding(4, 4, 4, 4)
+        btnExport.Location = New Point(907, 6)
+        btnExport.Margin = New Padding(4)
         btnExport.Name = "btnExport"
         btnExport.Size = New Size(181, 38)
         btnExport.TabIndex = 3
@@ -316,8 +316,8 @@ Partial Class Competitor
         ' 
         btnImport.BackColor = Color.White
         btnImport.FlatStyle = FlatStyle.Flat
-        btnImport.Location = New Point(1319, 8)
-        btnImport.Margin = New Padding(4, 4, 4, 4)
+        btnImport.Location = New Point(1096, 6)
+        btnImport.Margin = New Padding(4)
         btnImport.Name = "btnImport"
         btnImport.Size = New Size(200, 38)
         btnImport.TabIndex = 4
@@ -330,7 +330,7 @@ Partial Class Competitor
         pnlMainGridContainer.Controls.Add(pnlLeftTeam)
         pnlMainGridContainer.Dock = DockStyle.Fill
         pnlMainGridContainer.Location = New Point(0, 299)
-        pnlMainGridContainer.Margin = New Padding(4, 4, 4, 4)
+        pnlMainGridContainer.Margin = New Padding(4)
         pnlMainGridContainer.Name = "pnlMainGridContainer"
         pnlMainGridContainer.Size = New Size(1538, 463)
         pnlMainGridContainer.TabIndex = 3
@@ -358,11 +358,11 @@ Partial Class Competitor
         dgvCompetitors.DefaultCellStyle = DataGridViewCellStyle2
         dgvCompetitors.Dock = DockStyle.Fill
         dgvCompetitors.Location = New Point(224, 0)
-        dgvCompetitors.Margin = New Padding(4, 4, 4, 4)
+        dgvCompetitors.Margin = New Padding(4)
         dgvCompetitors.Name = "dgvCompetitors"
         dgvCompetitors.RowHeadersVisible = False
         dgvCompetitors.RowHeadersWidth = 62
-        dgvCompetitors.RowTemplate.Height = 60              ' <-- DIUBAH biar foto kelihatan
+        dgvCompetitors.RowTemplate.Height = 60
         dgvCompetitors.Size = New Size(1314, 463)
         dgvCompetitors.TabIndex = 1
         ' 
@@ -408,13 +408,13 @@ Partial Class Competitor
         colTeamInfo.Name = "colTeamInfo"
         colTeamInfo.Width = 200
         ' 
-        ' colCompPict  <-- DIUBAH JADI IMAGE COLUMN
+        ' colCompPict
         ' 
         colCompPict.HeaderText = "Comp. Pict"
+        colCompPict.ImageLayout = DataGridViewImageCellLayout.Zoom
         colCompPict.MinimumWidth = 8
         colCompPict.Name = "colCompPict"
         colCompPict.Width = 120
-        colCompPict.ImageLayout = DataGridViewImageCellLayout.Zoom  ' <-- TAMBAHAN
         ' 
         ' pnlLeftTeam
         ' 
@@ -422,7 +422,7 @@ Partial Class Competitor
         pnlLeftTeam.Controls.Add(lblTeamHeader)
         pnlLeftTeam.Dock = DockStyle.Left
         pnlLeftTeam.Location = New Point(0, 0)
-        pnlLeftTeam.Margin = New Padding(4, 4, 4, 4)
+        pnlLeftTeam.Margin = New Padding(4)
         pnlLeftTeam.Name = "pnlLeftTeam"
         pnlLeftTeam.Size = New Size(224, 463)
         pnlLeftTeam.TabIndex = 0
@@ -448,7 +448,7 @@ Partial Class Competitor
         pnlFooter.Controls.Add(btnDeleteAll)
         pnlFooter.Dock = DockStyle.Bottom
         pnlFooter.Location = New Point(0, 762)
-        pnlFooter.Margin = New Padding(4, 4, 4, 4)
+        pnlFooter.Margin = New Padding(4)
         pnlFooter.Name = "pnlFooter"
         pnlFooter.Size = New Size(1538, 50)
         pnlFooter.TabIndex = 4
@@ -469,7 +469,7 @@ Partial Class Competitor
         btnDeleteAll.Dock = DockStyle.Right
         btnDeleteAll.FlatStyle = FlatStyle.Flat
         btnDeleteAll.Location = New Point(1350, 0)
-        btnDeleteAll.Margin = New Padding(4, 4, 4, 4)
+        btnDeleteAll.Margin = New Padding(4)
         btnDeleteAll.Name = "btnDeleteAll"
         btnDeleteAll.Size = New Size(188, 50)
         btnDeleteAll.TabIndex = 1
@@ -487,7 +487,7 @@ Partial Class Competitor
         Controls.Add(pnlFooter)
         Controls.Add(pnlHeader)
         Font = New Font("Segoe UI", 9.0F)
-        Margin = New Padding(4, 4, 4, 4)
+        Margin = New Padding(4)
         Name = "Competitor"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Competitor Entries"
