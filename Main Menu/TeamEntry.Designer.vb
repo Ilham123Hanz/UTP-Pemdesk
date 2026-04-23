@@ -50,7 +50,7 @@ Partial Class TeamEntry
         ' lblTitle
         ' 
         lblTitle.Dock = DockStyle.Top
-        lblTitle.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        lblTitle.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         lblTitle.Location = New Point(0, 0)
         lblTitle.Name = "lblTitle"
         lblTitle.Size = New Size(1122, 40)
@@ -188,7 +188,7 @@ Partial Class TeamEntry
         ' 
         ' lblStatusNew
         ' 
-        lblStatusNew.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
+        lblStatusNew.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         lblStatusNew.Location = New Point(580, 100)
         lblStatusNew.Name = "lblStatusNew"
         lblStatusNew.Size = New Size(160, 25)
@@ -220,7 +220,7 @@ Partial Class TeamEntry
         ' 
         ' btnExport
         ' 
-        btnExport.Location = New Point(459, 7)
+        btnExport.Location = New Point(442, 5)
         btnExport.Name = "btnExport"
         btnExport.Size = New Size(201, 38)
         btnExport.TabIndex = 1
@@ -228,7 +228,7 @@ Partial Class TeamEntry
         ' 
         ' btnImport
         ' 
-        btnImport.Location = New Point(665, 7)
+        btnImport.Location = New Point(649, 7)
         btnImport.Name = "btnImport"
         btnImport.Size = New Size(197, 38)
         btnImport.TabIndex = 2
