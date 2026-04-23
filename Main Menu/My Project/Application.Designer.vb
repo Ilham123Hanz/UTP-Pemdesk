@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Main_Menu.dashboard
+            Me.MainForm = Global.Main_Menu.FormKeyboardShortcut
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
